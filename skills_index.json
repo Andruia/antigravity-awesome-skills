@@ -1,5 +1,17 @@
 [
   {
+    "id": "2d-games",
+    "path": "skills/game-development/2d-games",
+    "name": "2d-games",
+    "description": "2D game development principles. Sprites, tilemaps, physics, camera."
+  },
+  {
+    "id": "3d-games",
+    "path": "skills/game-development/3d-games",
+    "name": "3d-games",
+    "description": "3D game development principles. Rendering, shaders, physics, cameras."
+  },
+  {
     "id": "3d-web-experience",
     "path": "skills/3d-web-experience",
     "name": "3d-web-experience",
@@ -258,10 +270,28 @@
     "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" or \"tracking plan.\" For A/B test measurement, see ab-test-setup."
   },
   {
+    "id": "api-patterns",
+    "path": "skills/api-patterns",
+    "name": "api-patterns",
+    "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination."
+  },
+  {
+    "id": "app-builder",
+    "path": "skills/app-builder",
+    "name": "app-builder",
+    "description": "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents."
+  },
+  {
     "id": "app-store-optimization",
     "path": "skills/app-store-optimization",
     "name": "app-store-optimization",
     "description": "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store"
+  },
+  {
+    "id": "architecture",
+    "path": "skills/architecture",
+    "name": "architecture",
+    "description": "Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design."
   },
   {
     "id": "autonomous-agent-patterns",
@@ -292,6 +322,18 @@
     "path": "skills/backend-dev-guidelines",
     "name": "backend-dev-guidelines",
     "description": "Comprehensive backend development guide for Node.js/Express/TypeScript microservices. Use when creating routes, controllers, services, repositories, middleware, or working with Express APIs, Prisma database access, Sentry error tracking, Zod validation, unifiedConfig, dependency injection, or async patterns. Covers layered architecture (routes \u2192 controllers \u2192 services \u2192 repositories), BaseController pattern, error handling, performance monitoring, testing strategies, and migration from legacy patterns."
+  },
+  {
+    "id": "bash-linux",
+    "path": "skills/bash-linux",
+    "name": "bash-linux",
+    "description": "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems."
+  },
+  {
+    "id": "behavioral-modes",
+    "path": "skills/behavioral-modes",
+    "name": "behavioral-modes",
+    "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type."
   },
   {
     "id": "blockrun",
@@ -348,10 +390,22 @@
     "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations."
   },
   {
+    "id": "clean-code",
+    "path": "skills/clean-code",
+    "name": "clean-code",
+    "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments"
+  },
+  {
     "id": "clerk-auth",
     "path": "skills/clerk-auth",
     "name": "clerk-auth",
     "description": "\"Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync Use when: adding authentication, clerk auth, user authentication, sign in, sign up.\""
+  },
+  {
+    "id": "code-review-checklist",
+    "path": "skills/code-review-checklist",
+    "name": "code-review-checklist",
+    "description": "Code review guidelines covering code quality, security, and best practices."
   },
   {
     "id": "competitor-alternatives",
@@ -420,6 +474,18 @@
     "description": "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment."
   },
   {
+    "id": "database-design",
+    "path": "skills/database-design",
+    "name": "database-design",
+    "description": "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases."
+  },
+  {
+    "id": "deployment-procedures",
+    "path": "skills/deployment-procedures",
+    "name": "deployment-procedures",
+    "description": "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts."
+  },
+  {
     "id": "discord-bot-architect",
     "path": "skills/discord-bot-architect",
     "name": "discord-bot-architect",
@@ -436,6 +502,18 @@
     "path": "skills/doc-coauthoring",
     "name": "doc-coauthoring",
     "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks."
+  },
+  {
+    "id": "docker-expert",
+    "path": "skills/docker-expert",
+    "name": "docker-expert",
+    "description": "Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and production deployment patterns. Use PROACTIVELY for Dockerfile optimization, container issues, image size problems, security hardening, networking, and orchestration challenges."
+  },
+  {
+    "id": "documentation-templates",
+    "path": "skills/documentation-templates",
+    "name": "documentation-templates",
+    "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation."
   },
   {
     "id": "docx-official",
@@ -510,10 +588,40 @@
     "description": "Frontend development guidelines for React/TypeScript applications. Modern patterns including Suspense, lazy loading, useSuspenseQuery, file organization with features directory, MUI v7 styling, TanStack Router, performance optimization, and TypeScript best practices. Use when creating components, pages, features, fetching data, styling, routing, or working with frontend code."
   },
   {
+    "id": "game-art",
+    "path": "skills/game-development/game-art",
+    "name": "game-art",
+    "description": "Game art principles. Visual style selection, asset pipeline, animation workflow."
+  },
+  {
+    "id": "game-audio",
+    "path": "skills/game-development/game-audio",
+    "name": "game-audio",
+    "description": "Game audio principles. Sound design, music integration, adaptive audio systems."
+  },
+  {
+    "id": "game-design",
+    "path": "skills/game-development/game-design",
+    "name": "game-design",
+    "description": "Game design principles. GDD structure, balancing, player psychology, progression."
+  },
+  {
+    "id": "game-development",
+    "path": "skills/game-development",
+    "name": "game-development",
+    "description": "Game development orchestrator. Routes to platform-specific skills based on project needs."
+  },
+  {
     "id": "gcp-cloud-run",
     "path": "skills/gcp-cloud-run",
     "name": "gcp-cloud-run",
     "description": "\"Specialized skill for building production-ready serverless applications on GCP. Covers Cloud Run services (containerized), Cloud Run Functions (event-driven), cold start optimization, and event-driven architecture with Pub/Sub.\""
+  },
+  {
+    "id": "geo-fundamentals",
+    "path": "skills/geo-fundamentals",
+    "name": "geo-fundamentals",
+    "description": "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity)."
   },
   {
     "id": "git-pushing",
@@ -538,6 +646,12 @@
     "path": "skills/hubspot-integration",
     "name": "hubspot-integration",
     "description": "\"Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custom objects. Covers Node.js and Python SDKs. Use when: hubspot, hubspot api, hubspot crm, hubspot integration, contacts api.\""
+  },
+  {
+    "id": "i18n-localization",
+    "path": "skills/i18n-localization",
+    "name": "i18n-localization",
+    "description": "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support."
   },
   {
     "id": "inngest",
@@ -594,6 +708,12 @@
     "description": "\"When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum.\""
   },
   {
+    "id": "lint-and-validate",
+    "path": "skills/lint-and-validate",
+    "name": "lint-and-validate",
+    "description": "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis."
+  },
+  {
     "id": "llm-app-patterns",
     "path": "skills/llm-app-patterns",
     "name": "llm-app-patterns",
@@ -630,10 +750,28 @@
     "description": "\"Expert in launching small, focused SaaS products fast - the indie hacker approach to building profitable software. Covers idea validation, MVP development, pricing, launch strategies, and growing to sustainable revenue. Ship in weeks, not months. Use when: micro saas, indie hacker, small saas, side project, saas mvp.\""
   },
   {
+    "id": "mobile-design",
+    "path": "skills/mobile-design",
+    "name": "mobile-design",
+    "description": "Mobile-first design thinking and decision-making for iOS and Android apps. Touch interaction, performance patterns, platform conventions. Teaches principles, not fixed values. Use when building React Native, Flutter, or native mobile apps."
+  },
+  {
+    "id": "mobile-games",
+    "path": "skills/game-development/mobile-games",
+    "name": "mobile-games",
+    "description": "Mobile game development principles. Touch input, battery, performance, app stores."
+  },
+  {
     "id": "moodle-external-api-development",
     "path": "skills/moodle-external-api-development",
     "name": "moodle-external-api-development",
     "description": "Create custom external web service APIs for Moodle LMS. Use when implementing web services for course management, user tracking, quiz operations, or custom plugin functionality. Covers parameter validation, database operations, error handling, service registration, and Moodle coding standards."
+  },
+  {
+    "id": "multiplayer",
+    "path": "skills/game-development/multiplayer",
+    "name": "multiplayer",
+    "description": "Multiplayer game development principles. Architecture, networking, synchronization."
   },
   {
     "id": "neon-postgres",
@@ -642,10 +780,28 @@
     "description": "\"Expert patterns for Neon serverless Postgres, branching, connection pooling, and Prisma/Drizzle integration Use when: neon database, serverless postgres, database branching, neon postgres, postgres serverless.\""
   },
   {
+    "id": "nestjs-expert",
+    "path": "skills/nestjs-expert",
+    "name": "nestjs-expert",
+    "description": "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js authentication. Use PROACTIVELY for any Nest.js application issues including architecture decisions, testing strategies, performance optimization, or debugging complex dependency injection problems. If a specialized expert is a better fit, I will recommend switching and stop."
+  },
+  {
+    "id": "nextjs-best-practices",
+    "path": "skills/nextjs-best-practices",
+    "name": "nextjs-best-practices",
+    "description": "Next.js App Router principles. Server Components, data fetching, routing patterns."
+  },
+  {
     "id": "nextjs-supabase-auth",
     "path": "skills/nextjs-supabase-auth",
     "name": "nextjs-supabase-auth",
     "description": "\"Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route.\""
+  },
+  {
+    "id": "nodejs-best-practices",
+    "path": "skills/nodejs-best-practices",
+    "name": "nodejs-best-practices",
+    "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying."
   },
   {
     "id": "notebooklm",
@@ -678,16 +834,34 @@
     "description": "\"When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization.\""
   },
   {
+    "id": "parallel-agents",
+    "path": "skills/parallel-agents",
+    "name": "parallel-agents",
+    "description": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives."
+  },
+  {
     "id": "paywall-upgrade-cro",
     "path": "skills/paywall-upgrade-cro",
     "name": "paywall-upgrade-cro",
     "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" or \"in-app pricing.\" Distinct from public pricing pages (see page-cro) \u2014 this skill focuses on in-product upgrade moments where the user has already experienced value."
   },
   {
+    "id": "pc-games",
+    "path": "skills/game-development/pc-games",
+    "name": "pc-games",
+    "description": "PC and console game development principles. Engine selection, platform features, optimization strategies."
+  },
+  {
     "id": "pdf-official",
     "path": "skills/pdf-official",
     "name": "pdf",
     "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale."
+  },
+  {
+    "id": "performance-profiling",
+    "path": "skills/performance-profiling",
+    "name": "performance-profiling",
+    "description": "Performance profiling principles. Measurement, analysis, and optimization techniques."
   },
   {
     "id": "personal-tool-builder",
@@ -700,6 +874,12 @@
     "path": "skills/plaid-fintech",
     "name": "plaid-fintech",
     "description": "\"Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks, webhook handling, and fintech compliance best practices. Use when: plaid, bank account linking, bank connection, ach, account aggregation.\""
+  },
+  {
+    "id": "plan-writing",
+    "path": "skills/plan-writing",
+    "name": "plan-writing",
+    "description": "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work."
   },
   {
     "id": "planning-with-files",
@@ -720,6 +900,12 @@
     "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro."
   },
   {
+    "id": "powershell-windows",
+    "path": "skills/powershell-windows",
+    "name": "powershell-windows",
+    "description": "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling."
+  },
+  {
     "id": "pptx-official",
     "path": "skills/pptx-official",
     "name": "pptx",
@@ -730,6 +916,12 @@
     "path": "skills/pricing-strategy",
     "name": "pricing-strategy",
     "description": "\"When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers pricing research, tier structure, and packaging strategy.\""
+  },
+  {
+    "id": "prisma-expert",
+    "path": "skills/prisma-expert",
+    "name": "prisma-expert",
+    "description": "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues."
   },
   {
     "id": "product-manager-toolkit",
@@ -768,6 +960,12 @@
     "description": "\"Curated collection of high-quality prompts for various use cases. Includes role-based prompts, task-specific templates, and prompt refinement techniques. Use when user needs prompt templates, role-play prompts, or ready-to-use prompt examples for coding, writing, analysis, or creative tasks.\""
   },
   {
+    "id": "python-patterns",
+    "path": "skills/python-patterns",
+    "name": "python-patterns",
+    "description": "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying."
+  },
+  {
     "id": "rag-engineer",
     "path": "skills/rag-engineer",
     "name": "rag-engineer",
@@ -780,6 +978,12 @@
     "description": "\"Retrieval-Augmented Generation patterns including chunking, embeddings, vector stores, and retrieval optimization Use when: rag, retrieval augmented, vector search, embeddings, semantic search.\""
   },
   {
+    "id": "react-patterns",
+    "path": "skills/react-patterns",
+    "name": "react-patterns",
+    "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices."
+  },
+  {
     "id": "react-ui-patterns",
     "path": "skills/react-ui-patterns",
     "name": "react-ui-patterns",
@@ -790,6 +994,12 @@
     "path": "skills/receiving-code-review",
     "name": "receiving-code-review",
     "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation"
+  },
+  {
+    "id": "red-team-tactics",
+    "path": "skills/red-team-tactics",
+    "name": "red-team-tactics",
+    "description": "Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting."
   },
   {
     "id": "referral-program",
@@ -844,6 +1054,18 @@
     "path": "skills/seo-audit",
     "name": "seo-audit",
     "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup."
+  },
+  {
+    "id": "seo-fundamentals",
+    "path": "skills/seo-fundamentals",
+    "name": "seo-fundamentals",
+    "description": "SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles."
+  },
+  {
+    "id": "server-management",
+    "path": "skills/server-management",
+    "name": "server-management",
+    "description": "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands."
   },
   {
     "id": "shopify-apps",
@@ -918,6 +1140,18 @@
     "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
   },
   {
+    "id": "tailwind-patterns",
+    "path": "skills/tailwind-patterns",
+    "name": "tailwind-patterns",
+    "description": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture."
+  },
+  {
+    "id": "tdd-workflow",
+    "path": "skills/tdd-workflow",
+    "name": "tdd-workflow",
+    "description": "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle."
+  },
+  {
     "id": "telegram-bot-builder",
     "path": "skills/telegram-bot-builder",
     "name": "telegram-bot-builder",
@@ -928,6 +1162,12 @@
     "path": "skills/telegram-mini-app",
     "name": "telegram-mini-app",
     "description": "\"Expert in building Telegram Mini Apps (TWA) - web apps that run inside Telegram with native-like experience. Covers the TON ecosystem, Telegram Web App API, payments, user authentication, and building viral mini apps that monetize. Use when: telegram mini app, TWA, telegram web app, TON app, mini app.\""
+  },
+  {
+    "id": "templates",
+    "path": "skills/app-builder/templates",
+    "name": "templates",
+    "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks."
   },
   {
     "id": "test-driven-development",
@@ -964,6 +1204,12 @@
     "path": "skills/twilio-communications",
     "name": "twilio-communications",
     "description": "\"Build communication features with Twilio: SMS messaging, voice calls, WhatsApp Business API, and user verification (2FA). Covers the full spectrum from simple notifications to complex IVR systems and multi-channel authentication. Critical focus on compliance, rate limits, and error handling. Use when: twilio, send SMS, text message, voice call, phone verification.\""
+  },
+  {
+    "id": "typescript-expert",
+    "path": "skills/typescript-expert",
+    "name": "typescript-expert",
+    "description": ">-"
   },
   {
     "id": "ui-ux-pro-max",
@@ -1026,6 +1272,18 @@
     "description": "\"Expert in building voice AI applications - from real-time voice agents to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice agents, Deepgram for transcription, ElevenLabs for synthesis, LiveKit for real-time infrastructure, and WebRTC fundamentals. Knows how to build low-latency, production-ready voice experiences. Use when: voice ai, voice agent, speech to text, text to speech, realtime voice.\""
   },
   {
+    "id": "vr-ar",
+    "path": "skills/game-development/vr-ar",
+    "name": "vr-ar",
+    "description": "VR/AR development principles. Comfort, interaction, performance requirements."
+  },
+  {
+    "id": "vulnerability-scanner",
+    "path": "skills/vulnerability-scanner",
+    "name": "vulnerability-scanner",
+    "description": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization."
+  },
+  {
     "id": "web-artifacts-builder",
     "path": "skills/web-artifacts-builder",
     "name": "web-artifacts-builder",
@@ -1036,6 +1294,12 @@
     "path": "skills/web-design-guidelines",
     "name": "web-design-guidelines",
     "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
+  },
+  {
+    "id": "web-games",
+    "path": "skills/game-development/web-games",
+    "name": "web-games",
+    "description": "Web browser game development principles. Framework selection, WebGPU, optimization, PWA."
   },
   {
     "id": "webapp-testing",
