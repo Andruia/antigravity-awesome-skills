@@ -652,7 +652,7 @@
     "path": "skills/daily-news-report",
     "category": "uncategorized",
     "name": "daily-news-report",
-    "description": "\u57fa\u4e8e\u9884\u8bbe URL \u5217\u8868\u6293\u53d6\u5185\u5bb9\uff0c\u7b5b\u9009\u9ad8\u8d28\u91cf\u6280\u672f\u4fe1\u606f\u5e76\u751f\u6210\u6bcf\u65e5 Markdown \u62a5\u544a\u3002",
+    "description": "Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1006,6 +1006,15 @@
     "description": "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or object references,\" or \"bypass authorization to access other users' data.\" It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "infinite-gratitude",
+    "path": "skills/infinite-gratitude",
+    "category": "uncategorized",
+    "name": "Infinite Gratitude",
+    "description": "Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).",
+    "risk": "safe",
+    "source": "https://github.com/sstklen/infinite-gratitude"
   },
   {
     "id": "inngest",

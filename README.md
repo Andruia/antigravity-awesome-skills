@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 256+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 257+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 256+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **The Ultimate Collection of 257+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -11,7 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **256 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **257 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -29,7 +29,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🔌 Compatibility & Invocation](#compatibility--invocation)
 - [📦 Features & Categories](#features--categories)
 - [🎁 Curated Collections (Bundles)](#curated-collections)
-- [📜 Full Skill Registry](#full-skill-registry-256256)
+- [📜 Full Skill Registry](#full-skill-registry-257257)
 - [🛠️ Installation](#installation)
 - [🤝 How to Contribute](#how-to-contribute)
 - [👥 Contributors & Credits](#credits--sources)
@@ -41,7 +41,7 @@ This repository provides essential skills to transform your AI assistant into a 
 
 ## New Here? Start Here!
 
-**Welcome to the V3 Enterprise Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
+**Welcome to the V3.5.0 Enterprise Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
 
 ### 1. 🐣 Context: What is this?
 
@@ -122,7 +122,7 @@ The repository is organized into several key areas of expertise:
 
 [Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
 
-## Full Skill Registry (256/256)
+## Full Skill Registry (257/257)
 
 > [!NOTE] > **Document Skills**: We provide both **community** and **official Anthropic** versions for DOCX, PDF, PPTX, and XLSX. Locally, the official versions are used by default (via symlinks). In the repository, both versions are available for flexibility.
 
@@ -200,7 +200,7 @@ The repository is organized into several key areas of expertise:
 | **crewai** | ⚪ | Expert in CrewAI - the leading role-based multi-agent framework used by 60% of Fortune 500 companies. Covers agent design with roles and goals, task definition, crew orchestration, process types (sequential, hierarchical, parallel), memory systems, and flows for complex workflows. Essential for building collaborative AI agent teams. Use when: crewai, multi-agent team, agent roles, crew of agents, role-based agents. | `skills/crewai` |
 | **Cross-Site Scripting and HTML Injection Testing** | ⚪ | This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify HTML injection flaws", "exploit client-side injection vulnerabilities", "steal cookies via XSS", or "bypass content security policies". It provides comprehensive techniques for detecting, exploiting, and understanding XSS and HTML injection attack vectors in web applications. | `skills/xss-html-injection` |
 | **d3-viz** | ⚪ | Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment. | `skills/claude-d3js-skill` |
-| **daily-news-report** | ⚪ | 基于预设 URL 列表抓取内容，筛选高质量技术信息并生成每日 Markdown 报告。 | `skills/daily-news-report` |
+| **daily-news-report** | ⚪ | Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports. | `skills/daily-news-report` |
 | **database-design** | ⚪ | Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases. | `skills/database-design` |
 | **deployment-procedures** | ⚪ | Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts. | `skills/deployment-procedures` |
 | **design-orchestration** | ⚪ | Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. Prevents premature implementation, skipped validation, and unreviewed high-risk designs. | `skills/design-orchestration` |
@@ -240,6 +240,7 @@ The repository is organized into several key areas of expertise:
 | **hubspot-integration** | ⚪ | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custom objects. Covers Node.js and Python SDKs. Use when: hubspot, hubspot api, hubspot crm, hubspot integration, contacts api. | `skills/hubspot-integration` |
 | **i18n-localization** | ⚪ | Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support. | `skills/i18n-localization` |
 | **IDOR Vulnerability Testing** | ⚪ | This skill should be used when the user asks to "test for insecure direct object references," "find IDOR vulnerabilities," "exploit broken access control," "enumerate user IDs or object references," or "bypass authorization to access other users' data." It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications. | `skills/idor-testing` |
+| **Infinite Gratitude** | 🔵 | Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies). | `skills/infinite-gratitude` |
 | **inngest** | ⚪ | Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers. Use when: inngest, serverless background job, event-driven workflow, step function, durable execution. | `skills/inngest` |
 | **interactive-portfolio** | ⚪ | Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios, and portfolios that convert visitors into opportunities. Use when: portfolio, personal website, showcase work, developer portfolio, designer portfolio. | `skills/interactive-portfolio` |
 | **internal-comms** | ⚪ | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.). | `skills/internal-comms-anthropic` |
@@ -459,8 +460,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[vudovn/antigravity-kit](https://github.com/vudovn/antigravity-kit)**: AI Agent templates with Skills, Agents, and Workflows (33 skills, MIT).
 - **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)**: Complete Claude Code configuration collection from Anthropic hackathon winner - skills only (8 skills, MIT).
 - **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Source for the agent-memory-mcp skill.
-- **[mvanhorn](https://github.com/mvanhorn)**: Contributor of `last30days`.
-- **[rookie-ricardo](https://github.com/rookie-ricardo)**: Contributor of `daily-news-report`.
+- **[sstklen/claude-api-cost-optimization](https://github.com/sstklen/claude-api-cost-optimization)**: Save 50-90% on Claude API costs with smart optimization strategies (MIT).
 
 ### Inspirations
 
@@ -498,12 +498,14 @@ ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, r
 
 We officially thank the following contributors for their help in making this repository awesome!
 
+- [mvanhorn](https://github.com/mvanhorn)
+- [rookie-ricardo](https://github.com/rookie-ricardo)
 - [sck_0](https://github.com/sck_0)
 - [Munir Abbasi](https://github.com/munirabbasi)
 - [Mohammad Faiz](https://github.com/mohdfaiz2k9)
-- [GuppyTheCat](https://github.com/GuppyTheCat)
-- [sickn33](https://github.com/sickn33)
 - [Ianj332](https://github.com/Ianj332)
+- [sickn33](https://github.com/sickn33)
+- [GuppyTheCat](https://github.com/GuppyTheCat)
 - [Tiger-Foxx](https://github.com/Tiger-Foxx)
 - [arathiesh](https://github.com/arathiesh)
 - [1bcMax](https://github.com/1bcMax)
@@ -514,11 +516,13 @@ We officially thank the following contributors for their help in making this rep
 - [SuperJMN](https://github.com/SuperJMN)
 - [Viktor Ferenczi](https://github.com/viktor-ferenczi)
 - [krisnasantosa15](https://github.com/krisnasantosa15)
+- [raeef1001](https://github.com/raeef1001)
+- [taksrules](https://github.com/taksrules)
 - [zebbern](https://github.com/zebbern)
-- [vuth-dogo](https://github.com/vuth-dogo)
-- [Takura](https://github.com/taksrules)
-- [rafy](https://github.com/raeef1001)
 - [Đỗ Khắc Gia Khoa](https://github.com/dokhacgiakhoa)
+- [vuth-dogo](https://github.com/vuth-dogo)
+- [sstklen](https://github.com/sstklen)
+- [truongnmt](https://github.com/truongnmt)
 
 ## Star History
 
