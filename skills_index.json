@@ -1,5 +1,23 @@
 [
   {
+    "id": "00-andruia-consultant",
+    "path": "skills/00-andruia-consultant",
+    "category": "andruia",
+    "name": "00-andruia-consultant",
+    "description": "Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español.",
+    "risk": "official",
+    "source": "personal"
+  },
+  {
+    "id": "10-andruia-skill-smith",
+    "path": "skills/10-andruia-skill-smith",
+    "category": "andruia",
+    "name": "10-andruia-skill-smith",
+    "description": "Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de Diamante.",
+    "risk": "official",
+    "source": "personal"
+  },
+  {
     "id": "2d-games",
     "path": "skills/game-development/2d-games",
     "category": "game-development",
