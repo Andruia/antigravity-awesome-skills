@@ -13,9 +13,10 @@ Scripts like `scripts/generate_index.py` and `scripts/update_readme.py` modify `
 
 **How to Fix (DO THIS EVERY TIME):**
 
-1. Run the scripts locally to regenerate README.md and skills_index.json:
+1. Run the **FULL Validation Chain** locally to regenerate `README.md` e `skills_index.json`:
 
    ```bash
+   python3 scripts/validate_skills.py
    python3 scripts/generate_index.py
    python3 scripts/update_readme.py
    ```
@@ -30,7 +31,7 @@ Scripts like `scripts/generate_index.py` and `scripts/update_readme.py` modify `
 3. Commit and push any updates:
    ```bash
    git add README.md skills_index.json
-   git commit -m "Update README and skills index to resolve CI drift"
+   git commit -m "chore: sync generated registry files"
    git push
    ```
 

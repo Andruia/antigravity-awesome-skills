@@ -11,6 +11,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [3.4.0] - 2026-01-27 - "Voice Intelligence & Categorization"
+
+### Added
+
+- **New Skill**: `voice-ai-engine-development` - Complete toolkit for building real-time voice agents (OpenAI Realtime, Vapi, Deepgram, ElevenLabs).
+- **Categorization**: Major README update introducing a concise "Features & Categories" summary table.
+
+### Changed
+
+- **README**: Replaced text-heavy category lists with a high-level summary table.
+- **Registry**: Synced generic skill count (256) across documentation.
+
+### Contributors
+
+- [@sickn33](https://github.com/sickn33) - Voice AI Engine (PR #33)
+- [@community](https://github.com/community) - Categorization Initiative (PR #32)
+
 ## [3.3.0] - 2026-01-26 - "News & Research"
 
 ### Added

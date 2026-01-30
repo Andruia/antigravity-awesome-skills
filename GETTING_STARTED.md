@@ -15,7 +15,7 @@ AI Agents (like **Claude Code**, **Gemini**, **Cursor**) are smart, but they lac
 
 ## ⚡️ Quick Start: The "Starter Packs"
 
-Don't panic about the 255+ skills. You don't need them all at once.
+Don't panic about the 256+ skills. You don't need them all at once.
 We have curated **Starter Packs** to get you running immediately.
 
 ### 1. Install the Repo
@@ -84,7 +84,7 @@ We classify skills so you know what you're running:
 - 🔵 **Safe**: Community skills that are non-destructive (Read-only/Planning).
 - 🔴 **Risk**: Skills that modify systems or perform security tests (Authorized Use Only).
 
-_Check the [Full Registry](README.md#full-skill-registry-255255) for risk labels._
+_Check the [Full Registry](README.md#full-skill-registry-256256) for risk labels._
 
 ---
 

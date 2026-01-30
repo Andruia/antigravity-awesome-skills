@@ -22,12 +22,23 @@ Committing is NOT enough. You must PUSH to the remote.
 
 ### 2. 🔄 SYNC GENERATED FILES (Avoid CI Drift)
 
-If you touch `skills/`, you **MUST** run the validation chain.
+If you touch **any of these**:
 
-- Running `validate_skills.py` is NOT optional.
-- Running `generate_index.py` is NOT optional.
-- Running `update_readme.py` is NOT optional.
-  _If CI fails because of drift, you have failed._
+- `skills/` (aggiungi/rimuovi/modifichi skill)
+- la sezione **Full Skill Registry** di `README.md`
+- i **conteggi/claim** sul numero di skill (`256+ Agentic Skills...`, `(256/256)`, ecc.)
+
+…allora **DEVI** eseguire la Validation Chain **PRIMA** di committare.
+
+- Eseguire `validate_skills.py` **NON è opzionale**.
+- Eseguire `generate_index.py` **NON è opzionale**.
+- Eseguire `update_readme.py` **NON è opzionale**.
+
+Se la CI fallisce con:
+
+> `❌ Detected uncommitted changes in README.md or skills_index.json`
+
+significa che **non hai eseguito o committato** correttamente la Validation Chain.
 
 ### 3. 📝 EVIDENCE OF WORK
 
@@ -57,10 +68,9 @@ Before ANY commit that adds/modifies skills, run the chain:
     _Must return 0 errors for new skills._
 
 2.  **Regenerate Index**:
+
+    ```bash
     python3 scripts/generate_index.py
-
-    ```
-
     ```
 
 3.  **Update Readme**:

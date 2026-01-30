@@ -47,13 +47,30 @@ def update_readme():
         content
     )
 
-    # 5. Insert Collections / Bundles Section (New in Phase 3)
-    # This logic checks if "## 📦 Curated Collections" exists. If not, it creates it before Full Registry.
-    collections_header = "## 📦 Curated Collections"
-    
-    if collections_header not in content:
-        # Insert before Full Skill Registry
-        content = content.replace("## Full Skill Registry", f"{collections_header}\n\n[Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.\n\n## Full Skill Registry")
+    # 5. Ensure Curated Collections section exists (idempotent)
+    #
+    # Historical note: we previously used "## 📦 Curated Collections" in some runs.
+    # If the README already contains "## Curated Collections", inserting the emoji header creates duplicates.
+    canonical_collections_header = "## Curated Collections"
+    canonical_collections_body = "[Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role."
+
+    # Normalize any emoji variant to the canonical header
+    content = content.replace("## 📦 Curated Collections", canonical_collections_header)
+
+    # If the section is missing entirely, insert it right before the Full Skill Registry section
+    if canonical_collections_header not in content:
+        registry_header_match = re.search(r'^## Full Skill Registry', content, flags=re.MULTILINE)
+        if registry_header_match:
+            insert_block = f"{canonical_collections_header}\n\n{canonical_collections_body}\n\n"
+            content = content[:registry_header_match.start()] + insert_block + content[registry_header_match.start():]
+
+    # De-dupe repeated Curated Collections blocks (e.g. after a previous buggy insert)
+    escaped_body = re.escape(canonical_collections_body)
+    dedupe_pattern = re.compile(
+        rf'(?:{re.escape(canonical_collections_header)}\s*\n\s*\n{escaped_body}\s*\n\s*){{2,}}',
+        flags=re.MULTILINE
+    )
+    content = dedupe_pattern.sub(f"{canonical_collections_header}\n\n{canonical_collections_body}\n\n", content)
 
     # 6. Generate New Registry Table
     print("🔄 Generating new registry table...")
