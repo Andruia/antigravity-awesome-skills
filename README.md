@@ -1,7 +1,7 @@
 # 🌌 Antigravity Awesome Skills: 257+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
-# 🌌 Antigravity Awesome Skills: 257+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 258+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 257+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **The Ultimate Collection of 258+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 > **The Ultimate Collection of 257+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -13,8 +13,8 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **257 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
-**Antigravity Awesome Skills** is a curated, battle-tested library of **257 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **258 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **258 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -32,7 +32,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🔌 Compatibility & Invocation](#compatibility--invocation)
 - [📦 Features & Categories](#features--categories)
 - [🎁 Curated Collections (Bundles)](#curated-collections)
-- [📜 Full Skill Registry](#full-skill-registry-257257)
+- [📜 Full Skill Registry](#full-skill-registry-258258)
 - [🛠️ Installation](#installation)
 - [🤝 How to Contribute](#how-to-contribute)
 - [👥 Contributors & Credits](#credits--sources)
@@ -113,7 +113,7 @@ The repository is organized into several key areas of expertise:
 | **🎨 Creative & Design**    | **(21)**     | UI/UX Pro Max, Frontend Design, Canvas, Algorithmic Art, Theme Factory, D3 Viz, Web Artifacts                                |
 | **🛠️ Development**          | **(44)**     | TDD, Systematic Debugging, React Patterns, Backend/Frontend Guidelines, Senior Fullstack, Software Architecture              |
 | **🏗️ Infrastructure & Git** | **(13)**     | Linux Shell Scripting, Git Worktrees, Git Pushing, Conventional Commits, File Organization, GitHub Workflow Automation       |
-| **🤖 AI Agents & LLM**      | **(27)**     | Voice AI Engine, LangGraph, CrewAI, Langfuse, RAG Engineer, Prompt Engineer, Browser Automation, Agent Memory Systems        |
+| **🤖 AI Agents & LLM**      | **(28)**     | Voice AI Engine, LangGraph, CrewAI, Langfuse, RAG Engineer, Prompt Engineer, Niche Intelligence, Browser Automation        |
 | **🔄 Workflow & Planning**  | **(19)**     | Writing Plans, Executing Plans, Concise Planning, Verification Before Completion, Code Review (Requesting/Receiving)         |
 | **📄 Document Processing**  | **(5)**      | DOCX (Official), PDF (Official), PPTX (Official), XLSX (Official)                                                            |
 | **🧪 Testing & QA**         | **(8)**      | Webapp Testing, Playwright Automation, Test Fixing, Testing Patterns                                                         |
@@ -129,7 +129,7 @@ The repository is organized into several key areas of expertise:
 
 [Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
 
-## Full Skill Registry (257/257)
+## Full Skill Registry (258/258)
 
 > [!NOTE] > **Document Skills**: We provide both **community** and **official Anthropic** versions for DOCX, PDF, PPTX, and XLSX. Locally, the official versions are used by default (via symlinks). In the repository, both versions are available for flexibility.
 
@@ -137,6 +137,7 @@ The repository is organized into several key areas of expertise:
 | :--- | :--- | :--- | :--- |
 | **00-andruia-consultant** | 🟣 | Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español. | `skills/00-andruia-consultant` |
 | **10-andruia-skill-smith** | 🟣 | Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de Diamante. | `skills/10-andruia-skill-smith` |
+| **20-andruia-niche-intelligence** | 🟣 | Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico para inyectar conocimientos y estándares únicos del sector. | `skills/20-andruia-niche-intelligence` |
 | **2d-games** | ⚪ | 2D game development principles. Sprites, tilemaps, physics, camera. | `skills/game-development/2d-games` |
 | **3d-games** | ⚪ | 3D game development principles. Rendering, shaders, physics, cameras. | `skills/game-development/3d-games` |
 | **3d-web-experience** | ⚪ | Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL, and interactive 3D scenes. Covers product configurators, 3D portfolios, immersive websites, and bringing depth to web experiences. Use when: 3D website, three.js, WebGL, react three fiber, 3D experience. | `skills/3d-web-experience` |

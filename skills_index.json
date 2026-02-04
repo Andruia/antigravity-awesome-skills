@@ -18,6 +18,15 @@
     "source": "personal"
   },
   {
+    "id": "20-andruia-niche-intelligence",
+    "path": "skills/20-andruia-niche-intelligence",
+    "category": "andruia",
+    "name": "20-andruia-niche-intelligence",
+    "description": "Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico para inyectar conocimientos y estándares únicos del sector.",
+    "risk": "official",
+    "source": "personal"
+  },
+  {
     "id": "2d-games",
     "path": "skills/game-development/2d-games",
     "category": "game-development",
