@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.1.1] - 2026-02-23 - "AWS Cost Optimization & Registry 927"
+
+> **Patch release: AWS cost optimization skills (PR #107) and registry count 927.**
+
+- **New skills** (PR #107): `aws-cost-optimizer`, `aws-cost-cleanup`.
+- **Registry**: Now tracking 927 skills.
+
+---
+
 ## [6.1.0] - 2026-02-23 - "Issues Fix & Community Expansion"
 
 > **Bugfixes for #116 and #120, plus Game Dev bundle, Android skills, Workflow Bundles, LibreOffice, Data Structure Protocol, and Kiro IDE support.**
